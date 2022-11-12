@@ -1,5 +1,5 @@
 Description: >
-    Carlos Rivas / Udacity 2019
+    Script to deploy a high-availability web app using cloud formations. 
 
 Parameters:
 
