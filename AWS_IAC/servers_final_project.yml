@@ -159,7 +159,7 @@ Outputs:
 #   it's nice to output the URL to it here, so that we don't have to go to the console to get it.
    WebAppLB: 
      Description: Export of webapp load balancer URL
-     Value: !Join ["http://",[!GetAtt WebAppLB.DNSName]]
+     Value: !Join ["",[http://, !GetAtt WebAppLB.DNSName]]
      Export:
        Name: !Sub ${EnvironmentName}-URL
 
