@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "EnvironmentName",
-		"ParameterValue": "UdacityProject_High_Availability_Web_App"
+		"ParameterValue": "UdacityProject"
 	},
 	{
 		"ParameterKey": "AMItoUse",
