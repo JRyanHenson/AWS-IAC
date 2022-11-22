@@ -6,9 +6,5 @@
 	{
 		"ParameterKey": "AMItoUse",
 		"ParameterValue": "ami-0ee23bfc74a881de5"
-	},
-	{
-		"ParameterKey": "KeytoUse",
-		"ParameterValue": "AWS_IAC"
 	}
 ]

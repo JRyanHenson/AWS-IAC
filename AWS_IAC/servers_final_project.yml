@@ -75,7 +75,6 @@ Resources:
           sudo systemctl start apache2.service 
           sudo echo "Udacity Demo Web Server Up and Running!" > /var/www/html/index.html    
       ImageId: !Ref AMItoUse
-      KeyName: !Ref KeytoUse
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t2.small
